@@ -2,8 +2,7 @@
 fatorial :: Int -> Int
 -- Retorna 1 se o número é igual a 0
 fatorial 0 = 1
--- fatorial(numero) = numero * fatorial(numero - 1)
-fatorial n = n * fatorial (n - 1)
+fatorial numero = numero * fatorial (numero - 1)
 
 -- Função principal
 main :: IO ()
