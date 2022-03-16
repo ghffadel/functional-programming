@@ -2,7 +2,7 @@
 -module(Questao08).
 
 % Funções que serão exportadas
--export([potencia/2]).
+-export([potencia/1]).
 
 % Definição da função potência
 potencia(lista) ->
